@@ -117,6 +117,15 @@ main > article img {
   margin-bottom: 6px;
 }
 
+p:first-child:first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
 footer {
   margin-top: auto;
   background-color: var(--gray);
