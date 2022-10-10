@@ -133,7 +133,7 @@ span.tooltip {
   cursor: pointer;
 }
 
-/* underline span on hover/focus */
+/* create hover bubble/focus */
 span.tooltip:hover,
 span.tooltip:focus {
   text-decoration: underline;
