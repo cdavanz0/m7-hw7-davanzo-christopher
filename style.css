@@ -81,6 +81,7 @@ main > section.hero {
   align-items: center;
   text-align: center;
   position: sticky; 
+  top: 0;
 }
 
 section.hero > .call-to-action {
@@ -106,6 +107,10 @@ main article {
 main p {
   line-height: 1.75;
   margin-bottom: 48px;;
+}
+
+p::first-letter {
+  font-size: 80;
 }
 
 main > article img {
