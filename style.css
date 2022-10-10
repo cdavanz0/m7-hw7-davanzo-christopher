@@ -130,44 +130,55 @@ footer {
   color: var(--off-white);
 }
 
-/* tooltip code below */
-
 span.tooltip {
   color: var(--danger-color);
   position: relative;
   cursor: pointer;
 }
 
-/* create hover bubble/focus */
 span.tooltip:hover,
 span.tooltip:focus {
-  width: 120px;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
+         visibility: hidden;
+         width: 140px;
+         background-color: #eee;
+         color: #fff;
+         z-index: 1;
+         bottom: 100%;
+         left: 60%;
+         margin-left: -90px;
+         text-align: center;
+         border-radius: 6px;
+         padding: 5px 0;
+         position: absolute;
 }
-/* show tooltip on hover/focus */
+
 span.tooltip:hover > span,
 span.tooltip:focus > span {
   text-decoration: underline;
 }
 
-/* styling for tooltip bubble */
 span.tooltip span {
-  position: relative;
-  background-color:#eee;
-  margin: 0;
-  padding:10px;
-  text-align:center;
-  width:180px;
+         visibility: hidden;
+         width: 140px;
+         background-color: #eee;
+         color: #fff;
+         z-index: 1;
+         bottom: 100%;
+         left: 60%;
+         margin-left: -90px;
+         text-align: center;
+         border-radius: 6px;
+         padding: 5px 0;
+         position: absolute;
 }
 
-/* styling for tooltip bubble arrow */
 span.tooltip span::after {
-  position: relative;
-  background-color:#eee;
-  margin: 0;
-  padding:10px;
-  text-align:center;
-  width:180px;
+content: "";
+         position: absolute;
+         top: 100%;
+         left: 50%;
+         margin-left: -10px;
+         border-width: 7px;
+         border-style: solid;
+         border-color: blue transparent transparent transparent;
 }
