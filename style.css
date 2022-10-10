@@ -142,19 +142,35 @@ span.tooltip {
 span.tooltip:hover,
 span.tooltip:focus {
   text-decoration: underline;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
 }
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
-  display: inline;
+  text-decoration: underline;
 }
 
 /* styling for tooltip bubble */
 span.tooltip span {
-  display: none;
+  text-decoration: underline;
+  position: relative;
+  background-color:#eee;
+  margin: 0;
+  padding:10px;
+  text-align:center;
+  width:180px;
 }
 
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
-  content: "";
+  text-decoration: underline;
+  position: relative;
+  background-color:#eee;
+  margin: 0;
+  padding:10px;
+  text-align:center;
+  width:180px;
 }
