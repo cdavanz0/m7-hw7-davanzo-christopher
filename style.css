@@ -71,6 +71,7 @@ main > section, main > article {
 }
 
 main > section.hero {
+  position: sticky; 
   height: 300px;
   background-image: url(https://picsum.photos/1920/1000);
   background-size: cover;
@@ -92,7 +93,6 @@ section.hero > .call-to-action {
 }
 
 section.hero > button {
-  position: sticky; 
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
