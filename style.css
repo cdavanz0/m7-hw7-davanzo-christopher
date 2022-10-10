@@ -92,6 +92,7 @@ section.hero > .call-to-action {
 }
 
 section.hero > button {
+  position: sticky; 
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
