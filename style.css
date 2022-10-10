@@ -141,7 +141,6 @@ span.tooltip {
 /* create hover bubble/focus */
 span.tooltip:hover,
 span.tooltip:focus {
-  text-decoration: underline;
   width: 120px;
   bottom: 100%;
   left: 50%;
@@ -155,7 +154,6 @@ span.tooltip:focus > span {
 
 /* styling for tooltip bubble */
 span.tooltip span {
-  text-decoration: underline;
   position: relative;
   background-color:#eee;
   margin: 0;
@@ -166,7 +164,6 @@ span.tooltip span {
 
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
-  text-decoration: underline;
   position: relative;
   background-color:#eee;
   margin: 0;
